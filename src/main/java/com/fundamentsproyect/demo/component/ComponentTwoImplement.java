@@ -3,11 +3,12 @@ package com.fundamentsproyect.demo.component;
 import org.springframework.stereotype.Component;
 
 @Component
-public class ComponentImplement implements ComponentDependency {
+public class ComponentTwoImplement  implements ComponentDependency
+{
+
     @Override
     public void saludar()
     {
-        System.out.println("hola mundo desde mi componente");
-
+        System.out.println("Hola mundo desde mi componente dos");
     }
 }
