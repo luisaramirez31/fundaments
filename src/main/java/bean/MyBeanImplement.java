@@ -1,11 +1,9 @@
 package bean;
 
-import java.sql.SQLOutput;
-
 public class MyBeanImplement implements MyBean
 {
     @Override
     public void print() {
-        System.out.println("my bean");
+        System.out.println("hola desde mi implementacion propia del bean");
     }
 }
